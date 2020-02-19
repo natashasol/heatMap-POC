@@ -66,17 +66,17 @@ extension CGRect {
 //        get {
 //         return self.size.width
 //        }
-//
+//        
 //        set {
 //            self.size.width = newValue
 //        }
 //    }
-//
+//    
 //    var height: CGFloat {
 //        get {
 //            return self.size.height
 //        }
-//
+//        
 //        set{
 //            self.size.height = newValue
 //        }
@@ -85,7 +85,7 @@ extension CGRect {
 //    var maxX: CGFloat {
 //        return self.maxX
 //    }
-//
+//    
 //    var maxY: CGFloat {
 //        return self.maxY
 //    }
@@ -94,4 +94,3 @@ extension CGRect {
         return CGPoint(x: self.x + self.width / 2, y: self.y + self.height / 2)
     }
 }
-

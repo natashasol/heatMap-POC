@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63C844433D318298D3A3C1EC /* Pods_Heatmap_POCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F43CA1E284A28E04034494B /* Pods_Heatmap_POCTests.framework */; };
+		6EA00E0E9306744ED869DC2E /* Pods_Heatmap_POCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BFE41A58E1BA4C939D420F /* Pods_Heatmap_POCUITests.framework */; };
 		AFA800A623FC819200CC5B4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA800A523FC819200CC5B4B /* AppDelegate.swift */; };
 		AFA800A823FC819200CC5B4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA800A723FC819200CC5B4B /* SceneDelegate.swift */; };
 		AFA800AA23FC819200CC5B4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA800A923FC819200CC5B4B /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		AFA800B223FC819500CC5B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA800B023FC819500CC5B4B /* LaunchScreen.storyboard */; };
 		AFA800BD23FC819500CC5B4B /* Heatmap_POCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA800BC23FC819500CC5B4B /* Heatmap_POCTests.swift */; };
 		AFA800C823FC819500CC5B4B /* Heatmap_POCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA800C723FC819500CC5B4B /* Heatmap_POCUITests.swift */; };
+		B82DA706E4ACFE5AFE0C6462 /* Pods_Heatmap_POC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752227E9054D1414C21EC13A /* Pods_Heatmap_POC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47C233E5B2FEB2199FE38EA9 /* Pods-Heatmap-POCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heatmap-POCUITests.release.xcconfig"; path = "Target Support Files/Pods-Heatmap-POCUITests/Pods-Heatmap-POCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		740D968241584AC0533BD44C /* Pods-Heatmap-POCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heatmap-POCTests.release.xcconfig"; path = "Target Support Files/Pods-Heatmap-POCTests/Pods-Heatmap-POCTests.release.xcconfig"; sourceTree = "<group>"; };
+		752227E9054D1414C21EC13A /* Pods_Heatmap_POC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heatmap_POC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F43CA1E284A28E04034494B /* Pods_Heatmap_POCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heatmap_POCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA800A223FC819200CC5B4B /* Heatmap-POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heatmap-POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA800A523FC819200CC5B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFA800A723FC819200CC5B4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		AFA800C323FC819500CC5B4B /* Heatmap-POCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heatmap-POCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA800C723FC819500CC5B4B /* Heatmap_POCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heatmap_POCUITests.swift; sourceTree = "<group>"; };
 		AFA800C923FC819500CC5B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1BFE41A58E1BA4C939D420F /* Pods_Heatmap_POCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heatmap_POCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1ECDDCEF1ABDA59C1488C3 /* Pods-Heatmap-POC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heatmap-POC.release.xcconfig"; path = "Target Support Files/Pods-Heatmap-POC/Pods-Heatmap-POC.release.xcconfig"; sourceTree = "<group>"; };
+		D297EE603756333E342564AA /* Pods-Heatmap-POCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heatmap-POCTests.debug.xcconfig"; path = "Target Support Files/Pods-Heatmap-POCTests/Pods-Heatmap-POCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E974E0F89A6B977467E22101 /* Pods-Heatmap-POC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heatmap-POC.debug.xcconfig"; path = "Target Support Files/Pods-Heatmap-POC/Pods-Heatmap-POC.debug.xcconfig"; sourceTree = "<group>"; };
+		F14CA7E100DDFA2EE0F3BC84 /* Pods-Heatmap-POCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heatmap-POCUITests.debug.xcconfig"; path = "Target Support Files/Pods-Heatmap-POCUITests/Pods-Heatmap-POCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B82DA706E4ACFE5AFE0C6462 /* Pods_Heatmap_POC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C844433D318298D3A3C1EC /* Pods_Heatmap_POCTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA00E0E9306744ED869DC2E /* Pods_Heatmap_POCUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25966A66938D696198A67FE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				752227E9054D1414C21EC13A /* Pods_Heatmap_POC.framework */,
+				8F43CA1E284A28E04034494B /* Pods_Heatmap_POCTests.framework */,
+				B1BFE41A58E1BA4C939D420F /* Pods_Heatmap_POCUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3DCCB6CE65E45F3617B2910 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E974E0F89A6B977467E22101 /* Pods-Heatmap-POC.debug.xcconfig */,
+				CC1ECDDCEF1ABDA59C1488C3 /* Pods-Heatmap-POC.release.xcconfig */,
+				D297EE603756333E342564AA /* Pods-Heatmap-POCTests.debug.xcconfig */,
+				740D968241584AC0533BD44C /* Pods-Heatmap-POCTests.release.xcconfig */,
+				F14CA7E100DDFA2EE0F3BC84 /* Pods-Heatmap-POCUITests.debug.xcconfig */,
+				47C233E5B2FEB2199FE38EA9 /* Pods-Heatmap-POCUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AFA8009923FC819200CC5B4B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				AFA800BB23FC819500CC5B4B /* Heatmap-POCTests */,
 				AFA800C623FC819500CC5B4B /* Heatmap-POCUITests */,
 				AFA800A323FC819200CC5B4B /* Products */,
+				A3DCCB6CE65E45F3617B2910 /* Pods */,
+				25966A66938D696198A67FE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFA800CC23FC819500CC5B4B /* Build configuration list for PBXNativeTarget "Heatmap-POC" */;
 			buildPhases = (
+				8181ADF8A1DDF5D0444C8EF7 /* [CP] Check Pods Manifest.lock */,
 				AFA8009E23FC819200CC5B4B /* Sources */,
 				AFA8009F23FC819200CC5B4B /* Frameworks */,
 				AFA800A023FC819200CC5B4B /* Resources */,
+				9CFB905D09871AEC85F5E4EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFA800CF23FC819500CC5B4B /* Build configuration list for PBXNativeTarget "Heatmap-POCTests" */;
 			buildPhases = (
+				6ACA6F995095A659D05DB4AC /* [CP] Check Pods Manifest.lock */,
 				AFA800B423FC819500CC5B4B /* Sources */,
 				AFA800B523FC819500CC5B4B /* Frameworks */,
 				AFA800B623FC819500CC5B4B /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFA800D223FC819500CC5B4B /* Build configuration list for PBXNativeTarget "Heatmap-POCUITests" */;
 			buildPhases = (
+				4FBDF5C512E95E225ADC0676 /* [CP] Check Pods Manifest.lock */,
 				AFA800BF23FC819500CC5B4B /* Sources */,
 				AFA800C023FC819500CC5B4B /* Frameworks */,
 				AFA800C123FC819500CC5B4B /* Resources */,
@@ -253,6 +297,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FBDF5C512E95E225ADC0676 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Heatmap-POCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ACA6F995095A659D05DB4AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Heatmap-POCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8181ADF8A1DDF5D0444C8EF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Heatmap-POC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFB905D09871AEC85F5E4EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Heatmap-POC/Pods-Heatmap-POC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Heatmap-POC/Pods-Heatmap-POC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Heatmap-POC/Pods-Heatmap-POC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AFA8009E23FC819200CC5B4B /* Sources */ = {
@@ -432,6 +562,7 @@
 		};
 		AFA800CD23FC819500CC5B4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E974E0F89A6B977467E22101 /* Pods-Heatmap-POC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +580,7 @@
 		};
 		AFA800CE23FC819500CC5B4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1ECDDCEF1ABDA59C1488C3 /* Pods-Heatmap-POC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +598,7 @@
 		};
 		AFA800D023FC819500CC5B4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D297EE603756333E342564AA /* Pods-Heatmap-POCTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +620,7 @@
 		};
 		AFA800D123FC819500CC5B4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740D968241584AC0533BD44C /* Pods-Heatmap-POCTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +642,7 @@
 		};
 		AFA800D323FC819500CC5B4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F14CA7E100DDFA2EE0F3BC84 /* Pods-Heatmap-POCUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +662,7 @@
 		};
 		AFA800D423FC819500CC5B4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C233E5B2FEB2199FE38EA9 /* Pods-Heatmap-POCUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
