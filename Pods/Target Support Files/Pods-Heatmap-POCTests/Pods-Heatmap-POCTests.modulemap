@@ -1,0 +1,6 @@
+framework module Pods_Heatmap_POCTests {
+  umbrella header "Pods-Heatmap-POCTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
